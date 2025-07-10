@@ -1,0 +1,49 @@
+{
+  "name": "work",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@heroicons/react": "^2.2.0",
+    "@lottiefiles/react-lottie-player": "^3.6.0",
+    "@react-three/drei": "^10.3.0",
+    "@react-three/fiber": "^9.1.2",
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "firebase": "^11.10.0",
+    "framer-motion": "^12.15.0",
+    "gsap": "^3.13.0",
+    "keen-slider": "^6.8.6",
+    "leaflet": "^1.9.4",
+    "lint": "^0.8.19",
+    "lottie-react": "^2.4.1",
+    "next": "^15.3.3",
+    "nodemailer": "^7.0.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
+    "react-intersection-observer": "^9.16.0",
+    "react-leaflet": "^5.0.0",
+    "react-swipeable": "^7.0.2",
+    "three": "^0.177.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "autoprefixer": "^10.4.21",
+    "eslint": "9.30.1",
+    "eslint-config-next": "15.3.5",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^4.1.8"
+  },
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+:root {
+  --background: black;
+  --foreground: #228B22;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+   scroll-behavior: smooth;
+}
+
+/* body {
+  background-color: aqua;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+
+
+@media screen and (min-width: 2560px) {
+  .hero-section {
+    flex-direction: row !important;
+    gap: 80px !important;
+    padding: 0 150px !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+
+  .hero-image {
+    max-width: 700px !important;
+    border-radius: 20px !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important;
+  }
+
+  .text-container-4k {
+    padding-left: 60px !important;
+    position: relative;
+    max-width: 700px !important;
+  }
+
+  .hero-4k {
+    font-size: 2.8rem !important;
+    max-width: 90%;
+    color: #171717;
+  }
+
+  .animated-heading-4k {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 5rem;
+    color: rgba(99, 102, 241, 0.1);
+    font-weight: 900;
+    white-space: nowrap;
+    user-select: none;
+    pointer-events: none;
+    transform: translateX(25%);
+  }
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+@keyframes spin-reverse {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(-360deg); }
+}
+.animate-spin-slow {
+  animation: spin 15s linear infinite;
+}
+.animate-spin-slow-reverse {
+  animation: spin-reverse 12s linear infinite;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+/* Scroll icon */
+@keyframes rocket-launch {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-3rem);
+    opacity: 0;
+  }
+}
+
+
